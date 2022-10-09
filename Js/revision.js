@@ -2,8 +2,15 @@ var institute = "AMDT";
 console.log(institute);
 
 var friends = ["Sangeeth", "Oshan", "Shafni"];
+console.log(friends[2])
+friends = [];
+friends.push("dasda");
+friends.push("asfasf");
+friends.push("Cyrill");
 
-if (friends[0][0] == "C" || friends[1][0] == "C" || friends[2][0] == "C") {
+
+var thirdArrayVal = friends[2];
+if (thirdArrayVal.charAt(0) == "C") {
 
     console.log("Yes")
     
@@ -11,8 +18,8 @@ if (friends[0][0] == "C" || friends[1][0] == "C" || friends[2][0] == "C") {
     console.log("Nope")
     
 }
-friends.pop()
-friends.push("Cyrill");
-console.log(friends);
+
+
+
 
 
